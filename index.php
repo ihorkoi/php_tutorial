@@ -9,8 +9,10 @@
 
 <body>
     <?php
-    echo ('Hello World');
-    echo '<h1>Test</h1>';
+    $name = "Ihor";
+    $age = 25;
+    echo "<p>There once was a man named $name</p>";
+    echo "<p>He was $age years old</p>";
     ?>
 </body>
 
